@@ -29,22 +29,27 @@
 ### Star : 각 노드는 중앙에 위치한 주 노드를 통하여 다른 노드들과 통신   
 - 장점 - 장애 발견이 쉽고, 관리가 용이
 - 단점 - 주 노드에 장애가 발생하면 전체 네트워크 사용이 불가능  
+<img width=20% src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/StarNetwork.svg/1024px-StarNetwork.svg.png>
 
 ### Ring : 각 노드의 좌우의 인접한 노드와 연결되어 원형을 이루고 있는 형태
 - 장점 - 단 방향 통신으로 신호 증폭이 가능하여 거리 제약이 적음
 - 단점 - 노드의 추가 삭제가 용이하지 않음
+<img width=20% src=https://upload.wikimedia.org/wikipedia/commons/d/db/NetworkTopology-Ring.png>
 
 ### Mesh : 모든 노드가 서로 일대일로 연결된 그물망 형태로 다수의 노드 쌍이 동시에 통신할 수 있음   
 - 장점 - 특정 노드의 장애가 다른 노트에 영향을 주지 않고, 회선장애에 유연한 대처가 가능
 - 단점 - 회선구축비용이 많이 들며, 새로운 노드 추가 시 비용부담이 발생   
+<img width=20% src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/NetworkTopology-FullyConnected.png/440px-NetworkTopology-FullyConnected.png>
 
 ### Bus : 버스라는공통 배선에 각 노드가 연결된 형태로, 노드의 신호가 테이블 전체에 전달됨   
 - 장점 - 노드의 추가 및 삭제가 용이하고, 특정 노드의 장애가 다른 노드에 영향을 주지 않음
 - 단점 - 공통배선의 대역폭을 공유하기 때문에 노드 수가 증가하면 배선의 트래픽이 증가하여 네트워크 성능이 저하됨  
+<img width=20% src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BusNetwork.svg/1024px-BusNetwork.svg.png>
 
 ### Tree : 트리 구조 형태로 망을 구성하여 정보 단말 장치를 추가하기 용이
 - 장점 - 네트워크 관리가 쉽고 확장이 편리
-- 단점 - 특정 노드에 트래픽이 집중화되면 네트워크 속도가 떨어짐   
+- 단점 - 특정 노드에 트래픽이 집중화되면 네트워크 속도가 떨어짐  
+<img width=20% src=https://fossbytes.com/wp-content/uploads/2016/03/tree-network-topology.jpg> 
 
 
 ### 홈 네트워크
@@ -52,7 +57,7 @@
 
 ### 기업용 네트워크
 - 인터넷 - ISP전용선 - 라우터 - 방화벽 - L3백본 - L2스위치 - 컴퓨터   
-　　　　　　　　　　　　　　　　　- L4로드밸런서 - DMZ - 서버
+　　　　　　　　　　　　　　　　  - L4로드밸런서 - DMZ - 서버
 
 ### 클라우드 네트워크
 - 인터넷 - Route53 - IGW - VPC - ELB - Auto Scaling - Security Group - EC2

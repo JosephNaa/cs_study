@@ -10,12 +10,12 @@
 - [클라우드 네트워크](#클라우드-네트워크)
 
 3. OSI 7 Layer
-- [OSI 7 Layer](#OSI-7-Layer)
-- [OSI 7 Layer 모델](#OSI-7-Layer-모델)
+- [OSI 7 Layer](#osi-7-layer)
+- [OSI 7 Layer 모델](#osi-7-layer-모델)
 
 4. TCP / IP
-- [TCP/IP란](#TCP/IP란)
-- [TCP/IP 모델](#TCP/IP-모델)
+- [TCP/IP란](#tcpip란)
+- [TCP/IP 모델](#tcpip-모델)
 - [캡슐화](#캡슐화)
 
 ## 네트워크란
@@ -135,3 +135,4 @@
 
 ## 캡슐화
 - 송신 데이터에 필요한 정보를 헤더에 붙여서 다음 계층으로 보내는 기술
+<img width=50% src=https://user-images.githubusercontent.com/17241871/134770149-aa6731b7-fe4f-4b37-9a63-1c9deaf3a2d0.png> 
